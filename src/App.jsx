@@ -215,7 +215,7 @@ export default function CafeOrderApp() {
 
       <header style={{ padding: "22px 20px 14px", borderBottom: "1.5px solid #DED2B8" }}>
         <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
-          <h1 style={{ fontFamily: "'Reem Kufi', sans-serif", fontSize: 26, margin: 0, color: "#2C1A10" }}>سكر وهيل</h1>
+          <h1 style={{ fontFamily: "'Reem Kufi', sans-serif", fontSize: 26, margin: 0, color: "#2C1A10" }}> سكر و هيل</h1>
           <button
             className="cafe-btn"
             onClick={() => setMode(mode === "customer" ? "staff" : "customer")}
